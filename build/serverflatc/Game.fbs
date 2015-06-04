@@ -1,0 +1,30 @@
+//使用gen Tools 生成对应客户端代码你需要严格约定
+//table命名约定 上下行消息 xxRequest xxResponse
+//前后端交互消息 存在一个消息ID；命名约定： msgID
+//命名空间 使用gen ---主要限制前端
+
+namespace gen;
+
+//下行消息 xxRequest
+table LoginRequest{
+     msgID:int=1; //消息ID msgID
+     username:string;
+}
+//下行消息 xxResponse
+table LoginResponse{
+     msgID:int=1;     //消息ID msgID
+     username:string;
+}
+
+table LoginTestResponse{
+     msgID:int=3;     //消息ID msgID
+     username:string;
+}
+
+
+
+
+
+
+
+
