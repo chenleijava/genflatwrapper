@@ -577,6 +577,10 @@ public class FlatBufferBuilder {
         byte[] array = new byte[length];
         bb.position(start);
         bb.get(array);
+        //for gc
+        bb = null;
+        this.vtable = null;
+        this.vtables = null;
         return array;
     }
 
