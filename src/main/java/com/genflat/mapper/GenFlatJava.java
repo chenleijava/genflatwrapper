@@ -48,6 +48,7 @@ public class GenFlatJava {
      * @param controllerPath 生成controller 位置
      * @param fbspath        flat buffers 描述文件夹
      */
+
     @SuppressWarnings("ResultOfMethodCallIgnored")
     public static void genController(String controllerPath, String fbspath) throws Exception {
         System.out.println("begin gen logic controller....");
