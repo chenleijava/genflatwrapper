@@ -55,6 +55,7 @@ public class GenFlatMapper {
                         "-flatgen:  game controller path or java files；\n" +
                         "-f: game of fbs path；\n";
 
+
         System.out.println(show);
 
         if (args.length != 0) {

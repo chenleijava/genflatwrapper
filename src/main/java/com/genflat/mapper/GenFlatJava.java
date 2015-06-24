@@ -28,6 +28,7 @@ import java.util.ArrayList;
 public class GenFlatJava {
 
 
+
     /**
      * 服务器端处理来自客户端 xxxRequest,这里生成对应的xxxRequestController
      * 服务器端基于spring中PostConstruct() 自动调用。
