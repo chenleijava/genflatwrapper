@@ -3,13 +3,22 @@
 //前后端交互消息 存在一个消息ID；命名约定： msgID
 //命名空间 使用gen ---主要限制前端
 
-namespace gen;
+//namespace gen;
+//for server
+namespace com.dc.server.flatgen;
 
 //下行消息 xxRequest
 table LoginRequest{
      msgID:int=1; //消息ID msgID
      username:string;
 }
+
+table DataRequest{
+     msgID:int=45;
+
+
+}
+
 //下行消息 xxResponse
 table LoginResponse{
      msgID:int=1;     //消息ID msgID

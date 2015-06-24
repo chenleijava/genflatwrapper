@@ -94,8 +94,7 @@ public class GenFlatCpp {
                     txt = randomAccessFile.readLine();
                     if (txt != null
                             && txt.startsWith("table")) {
-                        String temp = txt.substring(0, txt.lastIndexOf("{"))
-                                .replace("table", "");
+                        String temp = txt.replace("table", "").replace("{","");
                         if (temp.endsWith(client)) mapperTable.add(temp.trim());
 
                     }
