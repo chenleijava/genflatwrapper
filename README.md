@@ -28,5 +28,5 @@ use cmd：java -jar genflatMapper.jar -l cpp -c controllerpath -f fbspath
 >-c:  game controller path or java files；
 >-f: game of fbs path；
 >-g:  gen flat header
-
+###对应的工具已经在builde中打包完毕，如果有疑问请联系我：qq:502959937
 
