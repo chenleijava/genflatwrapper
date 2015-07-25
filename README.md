@@ -1,6 +1,6 @@
 
 ###基于flatbuffers ，使用fbs文件生成对应前端代码。
-###完成对后端生成代码自动修改msgID。更便于游戏生产。
+完成对后端生成代码自动修改msgID。更便于游戏生产。
 
 ```
 1.使用gen Tools 生成对应客户端代码你需要严格约定
@@ -32,6 +32,7 @@ use cmd：java -jar genflatMapper.jar -l cpp -c controllerpath -f fbspath
 >-c:  game controller path or java files；
 >-f: game of fbs path；
 >-g:  gen flat header
-###对应的工具已经在build中打包完毕，如果有疑问请联系我：qq:502959937
 ```
+###对应的工具已经在build中打包完毕，如果有疑问请联系我：qq:502959937
+
 
