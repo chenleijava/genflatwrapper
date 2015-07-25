@@ -33,6 +33,5 @@ use cmd：java -jar genflatMapper.jar -l cpp -c controllerpath -f fbspath
 >-f: game of fbs path；
 >-g:  gen flat header
 ```
-###对应的工具已经在build中打包完毕，如果有疑问请联系我：qq:502959937
 
 
